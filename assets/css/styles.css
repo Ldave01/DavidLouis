@@ -307,8 +307,8 @@ body {
 
 .project-links .btn {
   background-color: #007acc;
-  color: #ff6f61;
-  padding: 0.5rem 1rem;
+  color: #f9f9f9;
+  padding: 0.15rem 1rem;
   margin-right: 0.5rem;
   border-radius: 8px;
   text-decoration: none;
@@ -327,5 +327,5 @@ body {
 
 .btn-outline:hover {
   background-color: #007acc;
-  color: #fff;
+  color: #ff6f61;
 }
