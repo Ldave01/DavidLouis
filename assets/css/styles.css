@@ -281,3 +281,51 @@ body {
   margin: 0.5rem 0 0;
 }
 
+/* ==================================================================================== */
+.project-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  margin-bottom: 2rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.project-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-links {
+  margin-top: 1rem;
+}
+
+.project-links .btn {
+  background-color: #007acc;
+  color: #ff6f61;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-links .btn:hover {
+  background-color: #005fa3;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: #007acc;
+  border: 2px solid #007acc;
+}
+
+.btn-outline:hover {
+  background-color: #007acc;
+  color: #fff;
+}
